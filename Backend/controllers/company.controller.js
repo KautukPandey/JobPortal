@@ -95,7 +95,7 @@ export const updateCompany = async (req, res) => {
       message: "Company information updated.",
       success: true,
     });
-  } catch (error) {
-    console.log(error);
+  } catch (err) {
+    console.log(err);
   }
 };
